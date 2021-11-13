@@ -1,4 +1,4 @@
-package oopPractices;
+package bankAccountOOPPractice;
 
 public class Account {
     int accountNumber;
@@ -36,7 +36,7 @@ public class Account {
     public static void main(String[] args) {
         Account myFirstAccount = new Account();
         myFirstAccount.accountNumber = 21111111;
-        myFirstAccount.owner = "Fatai";
+        myFirstAccount.owner = "xxxx";
         myFirstAccount.balance = 5000000.00;
 
 
@@ -55,7 +55,7 @@ public class Account {
 
         Account mySecondAccount = new Account();
         mySecondAccount.accountNumber = 311111111;
-        mySecondAccount.owner = "Kareem";
+        mySecondAccount.owner = "yyyy";
         mySecondAccount.balance = 10000000;
 
         mySecondAccount.withdraw(1000000);

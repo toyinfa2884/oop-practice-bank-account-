@@ -1,4 +1,4 @@
-package oopPractices;
+package bankAccountOOPPractice;
 
 public class Client {
     String firstName;
